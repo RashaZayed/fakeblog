@@ -3,7 +3,168 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Blog</title>
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1>Rasha Zayed</h1>
+    <img src="img/PPicture.jpg" alt="profilepicture" width="200px" height="300px">
+    <nav>
+        <a href="#About Me">About Me</a> |
+        <a href="#Interest And Hobbies">Interest And Hobbies </a> |
+        <a href="#Schedule">Weekly Schedule</a> |
+        <a href="#Contact">My Contacts</a> |
+        <a href="#Survey">Survey</a>
+
+
+
+
+
+
+    </nav>
+    <h2 id="About Me"> About Me</h2>
+    <ul>
+        <li>I was born in Alexandria, Egypt</li>
+        <li>Now,I live in Bothell,Washington</li>
+
+    </ul>
+    <p>
+        
+        I graduated from  <a href="https://eng.alexu.edu.eg/index.php/en/">Faculty of Engineering</a> of Alexandria Egypt, Electrical Department.
+        Now, I'm studing web Development at <a href="https://www.codingdojo.com/?utm_term=coding%20dojo&utm_campaign=seattle_branding&utm_source=adwords&utm_medium=ppc&hsa_acc=7399794314&hsa_cam=380384939&hsa_grp=66794391823&hsa_ad=435615468953&hsa_src=g&hsa_tgt=kwd-300680237008&hsa_kw=coding%20dojo&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwqML6BRAHEiwAdquMnX008d7pvYLeBsnYrD6Gimm3xJtVACec0j69oLSytgHohylS1j8blRoCELkQAvD_BwE">Coding Dojo Bootcamp</a>
+        I'm a wife and mom of two little awesome monkeys.
+        One of my biggest dreams to become a software Engineer at one of the tier one companies <a href="https://www.microsoft.com/en-us/">Microsoft</a>, <a href="https://www.amazon.com/">Amazon</a>, <a href="https://about.google/">Google</a> ,etc. or at any of the local companies and startups. 
+
+    </p>
+    <h2 id="Interest And Hobbies">Interests and Hobbies</h2>
+    <ul>
+      <li>cooking and baking espacialy healthy food, here are one of my work <img src="img/cake.jpg" alt="cake picture" width="100px"></li>
+      <li>Photography</li>
+      <li>traveling and exploring new countries and new cultures</li>
+      <li>learning new staff</li>
+    </ul>
+
+    <h2 id="Schedule"> Schedule</h2>
+    <p>I have very busy schedule at Coding Dojo, here are my daily schedule: </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Activities</th>
+                <th>Number of Hours</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Lecture and Discussion</td>
+                <td>   1  </td>
+
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Assignments and Studing</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Lecture and Discussion</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Assignments and Studing</td>
+                <td>5</td>
+
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Discussion and Studing</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="2" >Algorithms lecture and Study</td>
+                
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2" >Study</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <br>
+        Here's is one of the educational videos :
+        <br>
+        <video width="320" height="240" controls>
+            <source src="img/install-extension.mp4" type="video/mp4">
+    </div>
+
+
+
+    <h2 id="Contact">My Contacts</h2>
+    <p>
+        <ul>
+          <li>  Here is my <a href="https://www.facebook.com/">Facebook page</a></li>
+          <li>  My phonenumber: +14256237613 </li>
+        </ul>
+
+    </p>
+    <h2 id="Survey">Please take this short survey</h2>
+    <form>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="email" required>
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="permission">Yes,send me emails</label>
+            <input type="radio" id="permission" name="info" value="accept">
+            <label for="decline">No,please don't send any emails</label>
+            <input type="radio" id="decline" name="info">
+
+
+        </div>
+        <div>
+            <br>
+            How did you hear about us:
+            <br>
+            <label for="facebook">Facbook</label>
+            <input type="checkbox" id="facbook" name="marketing">
+            <br>
+
+            <label for="Newspaper">Newspaper</label>
+            <input type="checkbox" id="Newspaper" name="marketing">
+            <br>
+
+            <label for="referral">Referral</label>
+            <input type="checkbox" id="referral" name="marketing">
+            
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+
+  </body>
 </html>
